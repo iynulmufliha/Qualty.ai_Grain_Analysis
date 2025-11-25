@@ -679,7 +679,7 @@ def render_analysis_results(analysis):
     # Optional Sections
     add_notes = analysis.get('additional_notes')
     if add_notes:
-        with st.expander("Additional Notes from AI"):
+        with st.expander("Additional Notes from Qualty AI"):
             st.write(add_notes)
 
     # Image Quality Assessment Notes from AI
@@ -704,7 +704,7 @@ if not api_key:
 
 # Sidebar
 with st.sidebar:
-    st.image("https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png", width=50) # Placeholder logo
+    
     st.header("How It Works")
     st.markdown("""
     1.  **Select** the expected grain type.
