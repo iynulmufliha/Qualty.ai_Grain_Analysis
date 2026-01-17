@@ -1,14 +1,14 @@
-    import streamlit as st
-    import PIL.Image
-    import os
-    import tempfile
-    import json
-    import io
-    import google.generativeai as genai
-    from dotenv import load_dotenv
-    import re
-    import datetime
-    import base64
+import streamlit as st
+import PIL.Image
+import os
+import tempfile
+import json
+import io
+import google.generativeai as genai
+from dotenv import load_dotenv
+import re
+import datetime
+import base64
 
     # Branding & Configuration
     APP_TITLE = "Qualty AI"
